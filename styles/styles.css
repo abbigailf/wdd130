@@ -10,7 +10,7 @@
     --border-color: black;
 }
 
-header, .grid, footer {
+header, footer {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -41,6 +41,8 @@ h1 {
 .grid {
     display: grid;
     align-items: start;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 main {
