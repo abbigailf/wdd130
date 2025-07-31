@@ -113,6 +113,11 @@ nav ul li a {
     max-width: 100%;
 }
 
+.hero h3 {
+  text-align: left;
+  padding: 0.1rem;
+}
+
 .hero article img {
     float: right;
     width: 120px;
