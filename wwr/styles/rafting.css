@@ -194,6 +194,61 @@ nav ul li a {
   background-color: var(--secondary-color);
 }
 
+.trips h2 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: var(--heading-font);
+  font-weight: bolder;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+.grid-item {
+  font-weight: bold;
+}
+
+.trip-table {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.trip-table h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-family: var(--heading-font);
+  font-weight: bolder;
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: var(--body-font);
+  background-color: white;
+  color: #000;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.trip-table th, .trip-table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.trip-table th {
+  background-color: var(--accent2-color);
+  color: #000;
+  font-weight: bolder;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 .cta {
   text-align: center;
   padding: 3rem 1rem;
